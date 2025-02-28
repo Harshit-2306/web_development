@@ -1,0 +1,38 @@
+#head{
+ background-color: rgb(95, 190, 13); color: white;width: 10px;
+
+}
+
+#bottom{
+ outline: 100px;
+ background-color: rgb(95, 190, 13); color: white;width: 10px;
+}
+
+ table {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        border-collapse: collapse;
+        border: 10px solid black;
+        background-color: black;
+      }
+      th,td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(43, 226, 113);
+      }
+      
+      th {
+        background-color: gray;
+        font-family: "Courier New", Courier, monospace;
+      }
+      td {
+        background-color: rgb(65, 132, 198);
+      }
+      tr:hover{
+        background-color: rgb(171, 38, 111);
+      }
+      /* .break {
+        background-color: lightgray;
+      } */

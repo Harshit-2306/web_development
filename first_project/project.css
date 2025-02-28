@@ -1,0 +1,435 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.navbar{
+ background-color: #0f1111;
+ height: 60px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+
+.nav-logo{
+ height: 50px;
+ width: 100px;
+
+}
+.logo{
+ height: 50px;
+ width: 100%;
+ background-image: url(amazon-logo-free-png.webp);
+ background-size: cover;
+ background-position: center;
+ /* margin-left: 20px; */
+
+}
+
+.border{
+ border: 1px solid transparent;
+}
+
+.border:hover{
+ border: 1px solid white;
+}
+
+.nav-address{
+ color: white;
+ height: 50px;
+ justify-content: center;
+ align-items: center;
+}
+
+.add-first
+{
+ color: #cccccc;
+ font-size: 0.85rem;
+ margin-left: 15px;
+}
+
+.add-second{
+ font-size: 1rem;
+ margin-left: 3px;
+}
+
+.add-icon{
+ display: flex;
+ align-items: center;
+}
+
+.nav-search{
+ display: flex;
+ justify-content: space-evenly;
+ margin-left: 10px;
+ width: 620px;
+ height: 40px;
+}
+
+.nav-search:hover{
+ border: 3px solid orange;
+ border-radius: 7px;
+}
+
+.search-select
+{
+ background-color: #f3f3f3;
+ width: 50px;
+ text-align: center;
+ border-top-left-radius: 4px;
+ border-bottom-left-radius: 4px;
+ border: none;
+}
+
+
+.search-input{
+ width: 100%;
+ font-size: 1rem;
+ border: none;
+}
+
+
+.search-icon{
+ width: 45px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 1.2rem;
+ background-color: #febd68;
+ border-top-right-radius: 4px;
+ border-bottom-right-radius: 4px;
+}
+
+.flag
+{
+ height: 50px;
+ width: 70px;
+}
+.en{
+ margin-top: 8px;
+ border: none;
+ color: white;
+ /* height: 18px; */
+ /* width: 50px; */
+ padding: 9px;
+ background-color:  #0f1111;
+}
+
+.nav-signin{
+ height: 35px;
+ width: 131px;
+ padding: 9px;
+ font-size:12px;
+}
+
+
+.signin{
+ border: none;
+ font-size: 14px;
+ color: white;
+ background-color:  #0f1111;
+}
+
+
+.nav-signin{
+ margin: 5px 5;
+ color: white;
+}
+
+.returns{
+ font-size: 12px;
+ color: white;
+}
+
+.order{
+ font-size: 14px;
+}
+
+.cart i{
+ font-size: 30px;
+}
+.cart{
+ height: 30px;
+ width: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+}
+
+.down{
+ display: flex;
+ background-color: #232f3e;
+ color: white;
+ justify-content: space-evenly;
+ align-items: center;
+ height: 40px;
+}
+
+.pr{
+ background-color: #232f3e;
+ border: none;
+ color: white;
+}
+
+.hero-section{
+ height: 600px;
+ background-image: url(pc_unrec_refresh._CB555261616_.jpg);
+ background-size: cover;
+} 
+
+.diba{
+ display: flex;
+ margin-left: 8px;
+ justify-content: space-evenly;
+}
+
+.ac{
+ height: 400px;
+ width: 350px;
+ background-color: white;
+ justify-content: center;
+ position: relative;
+ bottom: 250px;
+ /* margin: 100px 0px 0px 0px; */
+}
+
+
+.app{
+ border: none;
+ font-size: 21px;
+ align-items: center;
+ margin-left: 38px;
+ font-weight: 800;
+ /* margin: 40px 40px 30px 40px; */
+}
+
+.top{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 20px;
+ }
+
+.frize
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg);
+ background-size: 150px 130px;
+}
+
+.wash
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(186x116---wm._SY116_CB667322346_.jpg);
+background-size: 150px 130px;
+}
+
+.bottom{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 20px;
+}
+
+.air
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg);
+ background-size: 150px 130px;
+}
+
+.oven
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg);
+ background-size: 150px 130px;
+}
+
+.lamp
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(186x116_Home_lighting_2._SY116_CB555624324_.jpg);
+background-size: 150px 130px;
+}
+
+.cc{
+ height: 400px;
+ width: 350px;
+ background-color: white;
+ justify-content: center;
+ position: relative;
+ bottom: 250px;
+}
+
+.bed
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(186x116_Home_furnishings_2._SY116_CB555624324_.jpg);
+ background-size: 150px 130px;
+}
+
+.clo
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(186x116_Home_storage_1._SY116_CB555624324_.jpg);
+ background-size: 150px 130px;
+}
+
+.alien
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(186x116_Home_decor_1._SY116_CB555624324_.jpg);
+ background-size: 150px 130px;
+}
+
+.see{
+ font-weight: 30;
+ margin: 50px 0px 0px 30px;
+}
+
+.borde{
+ border: 1px solid transparent;
+}
+
+.borde:hover{
+ border: 1px solid black;
+}
+
+.co{
+ height: 400px;
+ width: 350px;
+ background-color: white;
+ justify-content: center;
+ position: relative;
+ bottom: 250px;
+}
+
+.boat
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg);
+ background-size: 150px 130px;
+}
+
+.boult
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg);
+ background-size: 150px 130px;
+}
+
+.noise
+{
+height: 130px;
+ width: 150px;
+ background-image: url(PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg);
+background-size: 150px 130px;
+}
+
+.Zebronics{
+height: 130px;
+ width: 150px;
+ background-image: url(PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg);
+ background-size: 150px 130px;
+}
+
+.am{
+ height: 400px;
+ width: 350px;
+ background-color: white;
+ justify-content: center;
+ position: relative;
+ bottom: 250px;
+}
+.clea
+{
+ height: 130px;
+ width: 150px;;
+ background-image: url(Glasscare1X._SY116_CB410830553_.jpg);
+ background-size: 150px 130px;
+}
+
+.rim
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(Rim_tyrecare1x._SY116_CB410830552_.jpg);
+ background-size: 150px 130px;
+}
+
+.hel
+{
+ height: 130px;
+ width: 150px;
+ background-image: url(Vega_helmet_186x116._SY116_CB405090404_.jpg);
+background-size: 150px 130px;
+}
+
+.vac{
+height: 130px;
+ width: 150px;
+ background-image: url(Vaccum1x._SY116_CB410830552_.jpg);
+ background-size: 150px 130px;
+}
+
+.dib{
+ display: flex;
+ margin-left: 8px;
+ justify-content: space-evenly;
+
+}
+
+.acc{
+ height: 400px;
+ width: 350px;
+ background-color: white;
+ justify-content: center;
+ position: relative;
+ bottom: 250px;
+}
+
+.tak{
+height: 130px;
+ width: 150px;
+ background-image: url(PC_QC_HOME_SIZE_186_2._SY116_CB567468236_.jpg);
+ background-size: 150px 130px;
+}
+
+.par{
+height: 130px;
+ width: 150px;
+ background-image: url(PC_QC_HOME_SIZE_186_3._SY116_CB567468236_.jpg);
+ background-size: 150px 130px;
+}
+
+.st{
+height: 130px;
+ width: 150px;
+ background-image: url(PC_QC_HOME_SIZE_186_4._SY116_CB567468236_.jpg);
+ background-size: 150px 130px;
+}
+
+.he{
+height: 130px;
+ width: 150px;
+ background-image: url(PC_QC_HOME_SIZE_186_1._SY116_CB567468236_.jpg);
+ background-size: 150px 130px;
+}
+
+.apps{
+ border: none;
+ font-size: 21px;
+ align-items: center;
+ margin-left: 38px;
+ font-weight: 800;
+ /* margin: 40px 40px 30px 40px; */
+}

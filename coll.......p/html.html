@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="css.css">
+</head>
+<body> 
+ <form class="form">
+  <label for="Name" id="name">Name :</label><br>
+  <input type="Name" id="name" name="name" placeholder="name" required><br>
+  <label for="Father Name" id="Father Name;">Father Name :</label><br>
+  <input type="Father Name" id="Father Name" name="Father Name" placeholder="Father Name" required><br>
+  <label for="email">Email :</label><br>
+  <input type="email" id="email" name="email" placeholder="email" required><br>
+  <label for="password">Password :</label><br>
+  <input type="password" id="password" name="password" placeholder="password" required><br>
+  <label for="Date of Birth">DOB :</label><br>
+  <input type="Date" id="Date of Birth" name="Date of Birth" placeholder="DOB" required><br><br>
+  <input type="State" id="State" name="State" required >
+  <select id="State" name="State">
+  <option value=" ">Select State</option>
+  <option value="Up">Uttar Pradesh</option>
+  <option value="mp">Madya Pradesh</option>
+  <option value="bh">Bihar</option>
+  <option value="pu">Punja</option>
+  <option value="tn">Tamil Nadu</option>
+  </select><br><br>
+  <label for="Gender">Gender : </label>
+  <label for="Gender">Male</label>
+  <input type="radio" id="gender" name="Gender" value="Male" required>
+  <label for="Gender">Female</label>
+  <input type="radio" id="gender" name="Gender" value="Female" required><br><br>
+  <label for="phone number" id="ph" name="phone" >phone number :</label><br>
+  <input type="number" type="tel" id="ph" placeholder="phone number" pattern="[0-9]{10}" maxlength="10" required><br><br>
+ <input type="submit" value="Submit">
+ </form>
+ </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+#media{
+ height: 500px;
+ width: 510px;
+ background-color: purple;
+}
+
+@media(width: 600px){
+ #media{
+  background-color: red;
+ }
+}
+
+@media (min-width: 200px) and (max-width: 300px)
+{
+ #media{
+  background-color: green;
+ }
+}

@@ -1,0 +1,38 @@
+  .traffic-light {
+   width: 100px;
+   background: black;
+   border: 2px solid #333;
+   padding: 10px;
+   margin: 50px auto;
+   border-radius: 10px;
+   text-align: center;
+  }
+
+  .light {
+   width: 60px;
+   height: 60px;
+   background: grey;
+   border: 5px solid #333;
+   border-radius: 50%;
+   margin: 10px auto;
+   transition: background-color 0.3s ease;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+   cursor: pointer;
+  }
+
+  #red-light {
+   background: red;
+  }
+
+  #yellow-light {
+   background: yellow;
+  }
+
+  #green-light {
+   background: green;
+  }
+
+  .light:hover {
+    filter: brightness(200%);
+    box-shadow: 0 0 20px rgb(36, 225, 239);
+   }
